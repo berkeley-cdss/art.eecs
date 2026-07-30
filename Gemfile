@@ -20,12 +20,6 @@ gem "vite_rails"
 # Build reusable, testable & encapsulated view components [https://viewcomponent.org]
 gem "view_component"
 
-# Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
-
-# Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
-
 # Authentication
 gem "omniauth"
 gem "omniauth-rails_csrf_protection"
