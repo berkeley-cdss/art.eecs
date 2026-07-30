@@ -36,6 +36,7 @@ gem "bootsnap", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 gem "image_processing", "~> 2.0"
+gem "ruby-vips", "~> 2.2"
 
 # HTTP asset caching/compression and X-Sendfile acceleration for Puma [https://github.com/basecamp/thruster]
 gem "thruster", require: false
