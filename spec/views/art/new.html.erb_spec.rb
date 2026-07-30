@@ -9,7 +9,6 @@ RSpec.describe "art/new", type: :view do
     render
 
     assert_select "form[action=?][method=?]", art_index_path, "post" do
-
       assert_select "input[name=?]", "art[title]"
 
       assert_select "lexxy-editor[name=?]", "art[description]"

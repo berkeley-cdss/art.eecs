@@ -18,5 +18,5 @@
 # "art" is used as both the singular and collective form throughout the app,
 # matching the `art` table and the `resources :art` routes.
 ActiveSupport::Inflector.inflections(:en) do |inflect|
-  inflect.uncountable %w( art )
+  inflect.uncountable %w[ art ]
 end
