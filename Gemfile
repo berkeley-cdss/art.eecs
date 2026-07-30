@@ -17,6 +17,9 @@ gem "puma", ">= 7.0"
 # Bundle JavaScript and CSS with Vite [https://vite-ruby.netlify.app]
 gem "vite_rails"
 
+# Build reusable, testable & encapsulated view components [https://viewcomponent.org]
+gem "view_component"
+
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
