@@ -62,6 +62,9 @@ RSpec.configure do |config|
   # Render ViewComponents in isolation in specs under spec/components.
   config.include ViewComponent::TestHelpers, type: :component
 
+  # Allow create(:user) etc. without the FactoryBot prefix.
+  config.include FactoryBot::Syntax::Methods
+
   # Filter lines from Rails gems in backtraces.
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:

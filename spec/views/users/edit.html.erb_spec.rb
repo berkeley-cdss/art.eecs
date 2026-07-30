@@ -34,7 +34,7 @@ RSpec.describe "users/edit", type: :view do
 
       assert_select "input[name=?]", "user[is_published]"
 
-      assert_select "input[name=?]", "user[bio]"
+      assert_select "lexxy-editor[name=?]", "user[bio]"
 
       assert_select "input[name=?]", "user[url]"
 

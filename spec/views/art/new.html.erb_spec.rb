@@ -2,19 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "art/new", type: :view do
   before(:each) do
-    assign(:art, Art.new(
-      title: "MyString",
-      description: nil,
-      artist_name: "MyText",
-      last_editor: nil,
-      created_location: "MyString",
-      url: "MyString",
-      image: nil,
-      classification: "MyString",
-      is_published: false,
-      location: nil,
-      artist: nil
-    ))
+    assign(:art, build(:art))
   end
 
   it "renders new art form" do
@@ -24,7 +12,7 @@ RSpec.describe "art/new", type: :view do
 
       assert_select "input[name=?]", "art[title]"
 
-      assert_select "input[name=?]", "art[description]"
+      assert_select "lexxy-editor[name=?]", "art[description]"
 
       assert_select "textarea[name=?]", "art[artist_name]"
 
