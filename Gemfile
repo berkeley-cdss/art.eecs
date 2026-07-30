@@ -20,6 +20,9 @@ gem "vite_rails"
 # Build reusable, testable & encapsulated view components [https://viewcomponent.org]
 gem "view_component"
 
+# Rich text editor for Action Text, built on Lexical [https://github.com/basecamp/lexxy]
+gem "lexxy"
+
 # Authentication
 gem "omniauth"
 gem "omniauth-rails_csrf_protection"
