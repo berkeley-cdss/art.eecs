@@ -1,16 +1,16 @@
 FactoryBot.define do
   factory :art do
-    title { "MyString" }
+    sequence(:title) { |n| "Title #{n}" }
     description { nil }
     artist_name { "MyText" }
-    last_editor { nil }
+    association :last_editor, factory: :user
     art_created_date { "2024-02-11" }
-    created_location { "MyString" }
-    url { "MyString" }
+    created_location { "Created Location" }
+    url { "Url" }
     image { nil }
-    classification { "MyString" }
+    classification { "Classification" }
     is_published { false }
-    location { nil }
+    location
     artist { nil }
   end
 end
