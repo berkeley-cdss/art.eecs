@@ -6,7 +6,7 @@
     "defaults"
   ],
   "dependencies": {
-    "@37signals/lexxy": "^0.9.27",
+    "@37signals/lexxy": "^0.9.33",
     "@rails/activestorage": "^8.1.301",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
