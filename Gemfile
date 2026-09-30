@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby file: ".tool-versions"
 
 # Full-stack web framework [https://rubyonrails.org]
-gem "rails", "~> 8.1.3"
+gem "rails", "~> 8.1.4"
 
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
