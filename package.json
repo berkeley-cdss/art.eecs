@@ -9,7 +9,7 @@
     "@37signals/lexxy": "^0.9.27",
     "@rails/activestorage": "^8.1.301",
     "bootstrap": "^5.3.8",
-    "bootstrap-icons": "^1.13.1",
+    "bootstrap-icons": "^1.13.2",
     "htmx.org": "^2.0.10"
   },
   "devDependencies": {
